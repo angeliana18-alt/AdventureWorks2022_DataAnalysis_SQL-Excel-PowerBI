@@ -61,6 +61,6 @@ This project involved the following tasks:
     
 - Fiscal year 2014 is the most scrap-efficient full year on record, despite being the highest-volume year.
 
-<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Screenshots/QualityControl Dashboard.gif">
+<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Screenshots/QualityControl scrap-efficiency.png">
 
 ##
