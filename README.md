@@ -3,7 +3,7 @@ A Microsoft Power BI business intelligence dashboard for Adventure Works Cycle �
 
 The report connects directly to a SQL Server instance via three purpose-built views — `SalesPerformanceFacts`, `QualityControlFacts`, `SupplyChainFacts` — each pre-joined and pre-aggregated at the source rather than modeled as a relational star schema inside Power BI. Fiscal periods run July–June (not calendar year); Fiscal Year 2011 is a partial year, starting in May. Territory reporting is normalized to 6 named regions, with the 5 U.S. sales territories merged into a single `US` value.
 
-<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Images/SalesPerformance Dashboard.gif">
+<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Screenshots/SalesPerformance Dashboard.gif">
 
 ## Features
 
@@ -55,12 +55,12 @@ This project involved the following tasks:
     
 - While US has the largest market with $ 63 miliion in total revenue, The Australian market has the largest revenue to profit conversion rate with 33.5% in total profit margin.
     
-<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Images/Revenue vs ProfitMargin - Market US.png">
+<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Screenshots/Revenue vs ProfitMargin - Market US.png">
     
-<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Images/Revenue vs ProfitMargin - Market Australia.png">
+<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Screenshots/Revenue vs ProfitMargin - Market Australia.png">
     
 - Fiscal year 2014 is the most scrap-efficient full year on record, despite being the highest-volume year.
 
-<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Images/QualityControl Dashboard.gif">
+<img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Screenshots/QualityControl Dashboard.gif">
 
 ##
