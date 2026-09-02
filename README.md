@@ -1,7 +1,7 @@
 # Adventure Works Cycle
 A Microsoft Power BI business intelligence dashboard for Adventure Works Cycle — sales performance, quality control, and supply chain reporting for the Adventure Works cycling-equipment manufacturing dataset.
 
-The report connects directly to a SQL Server instance via three purpose-built views — `SalesPerformanceFacts`, `QualityControlFacts`, `SupplyChainFacts` — each pre-joined and pre-aggregated at the source rather than modeled as a relational star schema inside Power BI. Fiscal periods run July–June (not calendar year); Fiscal Year 2011 is a partial year, starting in May. Territory reporting is normalized to 6 named regions, with the 5 U.S. sales territories merged into a single `US` value.
+The report connects directly to a SQL Server instance via three purpose-built views — `SalesPerformanceFacts`, `QualityControlFacts`, `SupplyChainFacts` — each pre-joined and pre-aggregated at the source. Fiscal periods run July–June (not calendar year); Fiscal Year 2011 is a partial year, starting in May. Territory reporting is normalized to 6 named regions, with the 5 U.S. sales territories merged into a single `US` value.
 
 <img alt="AdventureWorks2022_DataAnalysis_SQL-Excel-PowerBI" src="Screenshots/SalesPerformance Dashboard.gif">
 
