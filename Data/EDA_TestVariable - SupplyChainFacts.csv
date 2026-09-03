@@ -1,0 +1,57 @@
+﻿TableName,ColumnName,DataType,VariableType,CheckType,Metric,MetricValue
+SupplyChainFacts,FiscalMonth,int,Quantitative,Integrity,NegativeCount,0
+SupplyChainFacts,FiscalMonth,int,Quantitative,Integrity,NullCount,0
+SupplyChainFacts,FiscalMonth,int,Quantitative,Feasibility,MaxValue,12
+SupplyChainFacts,FiscalMonth,int,Quantitative,Feasibility,Mean,6.6751
+SupplyChainFacts,FiscalMonth,int,Quantitative,Feasibility,Median,7
+SupplyChainFacts,FiscalMonth,int,Quantitative,Feasibility,MinValue,1
+SupplyChainFacts,FiscalMonth,int,Quantitative,Feasibility,OutlierCount,0
+SupplyChainFacts,FiscalMonth,int,Quantitative,Feasibility,OutlierPct,0
+SupplyChainFacts,FiscalMonth,int,Quantitative,Feasibility,StdDev,3.37864
+SupplyChainFacts,FiscalMonth,int,Quantitative,CentralTendency,Mode,11 (freq=3175)
+SupplyChainFacts,FiscalYear,int,Quantitative,Integrity,NegativeCount,0
+SupplyChainFacts,FiscalYear,int,Quantitative,Integrity,NullCount,0
+SupplyChainFacts,FiscalYear,int,Quantitative,Feasibility,MaxValue,2014
+SupplyChainFacts,FiscalYear,int,Quantitative,Feasibility,Mean,2013.62
+SupplyChainFacts,FiscalYear,int,Quantitative,Feasibility,Median,2014
+SupplyChainFacts,FiscalYear,int,Quantitative,Feasibility,MinValue,2011
+SupplyChainFacts,FiscalYear,int,Quantitative,Feasibility,OutlierCount,184
+SupplyChainFacts,FiscalYear,int,Quantitative,Feasibility,OutlierPct,0.584777
+SupplyChainFacts,FiscalYear,int,Quantitative,Feasibility,StdDev,0.689605
+SupplyChainFacts,FiscalYear,int,Quantitative,CentralTendency,Mode,2014 (freq=23202)
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Integrity,NegativeCount,0
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Integrity,NullCount,0
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Feasibility,MaxValue,8
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Feasibility,Mean,7.00029
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Feasibility,Median,7
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Feasibility,MinValue,7
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Feasibility,OutlierCount,9
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Feasibility,OutlierPct,0.0286032
+SupplyChainFacts,LeadTimeDays,int,Quantitative,Feasibility,StdDev,0.0169103
+SupplyChainFacts,LeadTimeDays,int,Quantitative,CentralTendency,Mode,7 (freq=31456)
+SupplyChainFacts,OrderDate,datetime,Qualitative,Integrity,NullCount,0
+SupplyChainFacts,OrderDate,datetime,Qualitative,Integrity,NullPct,0
+SupplyChainFacts,OrderDate,datetime,Qualitative,Feasibility,MaxDate,Jun 30 2014 12:00AM
+SupplyChainFacts,OrderDate,datetime,Qualitative,Feasibility,MinDate,May 31 2011 12:00AM
+SupplyChainFacts,OrderDate,datetime,Qualitative,Feasibility,TimespanDays,1126
+SupplyChainFacts,OrderDate,datetime,Qualitative,Feasibility,TimespanMonths,37
+SupplyChainFacts,OrderDate,datetime,Qualitative,Feasibility,TimespanYears,3
+SupplyChainFacts,OrderDate,datetime,Qualitative,CentralTendency,Mode,Mar 31 2014 12:00AM (freq=271)
+SupplyChainFacts,SalesOrderID,int,Qualitative,Integrity,NullCount,0
+SupplyChainFacts,SalesOrderID,int,Qualitative,Integrity,NullPct,0
+SupplyChainFacts,SalesOrderID,int,Qualitative,Feasibility,DistinctCount,31465
+SupplyChainFacts,SalesOrderID,int,Qualitative,Feasibility,Top1CategoryPct,0.00317813
+SupplyChainFacts,SalesOrderID,int,Qualitative,Feasibility,Top1CategoryValue,48284
+SupplyChainFacts,SalesOrderID,int,Qualitative,Feasibility,Top2CategoryPct,0.00317813
+SupplyChainFacts,SalesOrderID,int,Qualitative,Feasibility,Top2CategoryValue,51201
+SupplyChainFacts,SalesOrderID,int,Qualitative,Feasibility,Top3CategoryPct,0.00317813
+SupplyChainFacts,SalesOrderID,int,Qualitative,Feasibility,Top3CategoryValue,56774
+SupplyChainFacts,SalesOrderID,int,Qualitative,CentralTendency,Mode,51201 (freq=1)
+SupplyChainFacts,ShipDate,datetime,Qualitative,Integrity,NullCount,0
+SupplyChainFacts,ShipDate,datetime,Qualitative,Integrity,NullPct,0
+SupplyChainFacts,ShipDate,datetime,Qualitative,Feasibility,MaxDate,Jul  7 2014 12:00AM
+SupplyChainFacts,ShipDate,datetime,Qualitative,Feasibility,MinDate,Jun  7 2011 12:00AM
+SupplyChainFacts,ShipDate,datetime,Qualitative,Feasibility,TimespanDays,1126
+SupplyChainFacts,ShipDate,datetime,Qualitative,Feasibility,TimespanMonths,37
+SupplyChainFacts,ShipDate,datetime,Qualitative,Feasibility,TimespanYears,3
+SupplyChainFacts,ShipDate,datetime,Qualitative,CentralTendency,Mode,Apr  7 2014 12:00AM (freq=273)

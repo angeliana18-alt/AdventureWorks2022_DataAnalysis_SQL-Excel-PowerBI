@@ -1,0 +1,149 @@
+﻿TableName,ColumnName,DataType,VariableType,CheckType,Metric,MetricValue
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Integrity,NegativeCount,0
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Integrity,NullCount,0
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Feasibility,MaxValue,12
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Feasibility,Mean,6.66608
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Feasibility,Median,7
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Feasibility,MinValue,1
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Feasibility,OutlierCount,0
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Feasibility,OutlierPct,0
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,Feasibility,StdDev,3.53812
+SalesPerformanceFacts,FiscalMonth,int,Quantitative,CentralTendency,Mode,9 (freq=13899)
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Integrity,NegativeCount,0
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Integrity,NullCount,0
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Feasibility,MaxValue,2014
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Feasibility,Mean,2013.51
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Feasibility,Median,2014
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Feasibility,MinValue,2011
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Feasibility,OutlierCount,498
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Feasibility,OutlierPct,0.410495
+SalesPerformanceFacts,FiscalYear,int,Quantitative,Feasibility,StdDev,0.723655
+SalesPerformanceFacts,FiscalYear,int,Quantitative,CentralTendency,Mode,2014 (freq=78284)
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Integrity,NegativeCount,21829
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Integrity,NullCount,80
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Feasibility,MaxValue,1487.84
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Feasibility,Mean,103.394
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Feasibility,Median,15.3307
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Feasibility,MinValue,-15099.75
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Feasibility,OutlierCount,27876
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Feasibility,OutlierPct,22.993
+SalesPerformanceFacts,GrossProfit,money,Quantitative,Feasibility,StdDev,398.993
+SalesPerformanceFacts,GrossProfit,money,Quantitative,CentralTendency,Mode,3.12 (freq=8827)
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Integrity,NegativeCount,0
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Integrity,NullCount,0
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Feasibility,MaxValue,27893.619000
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Feasibility,Mean,905.449
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Feasibility,Median,134.982
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Feasibility,MinValue,1.374000
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Feasibility,OutlierCount,10737
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Feasibility,OutlierPct,8.85037
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,Feasibility,StdDev,1693.42
+SalesPerformanceFacts,LineTotal,numeric,Quantitative,CentralTendency,Mode,4.990000 (freq=8827)
+SalesPerformanceFacts,OrderDate,datetime,Qualitative,Integrity,NullCount,0
+SalesPerformanceFacts,OrderDate,datetime,Qualitative,Integrity,NullPct,0
+SalesPerformanceFacts,OrderDate,datetime,Qualitative,Feasibility,MaxDate,Jun 30 2014 12:00AM
+SalesPerformanceFacts,OrderDate,datetime,Qualitative,Feasibility,MinDate,May 31 2011 12:00AM
+SalesPerformanceFacts,OrderDate,datetime,Qualitative,Feasibility,TimespanDays,1126
+SalesPerformanceFacts,OrderDate,datetime,Qualitative,Feasibility,TimespanMonths,37
+SalesPerformanceFacts,OrderDate,datetime,Qualitative,Feasibility,TimespanYears,3
+SalesPerformanceFacts,OrderDate,datetime,Qualitative,CentralTendency,Mode,Jun 30 2013 12:00AM (freq=3876)
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Integrity,NegativeCount,0
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Integrity,NullCount,0
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Feasibility,MaxValue,44
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Feasibility,Mean,2.26608
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Feasibility,Median,1
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Feasibility,MinValue,1
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Feasibility,OutlierCount,6927
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Feasibility,OutlierPct,5.70983
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,Feasibility,StdDev,2.49132
+SalesPerformanceFacts,OrderQty,smallint,Quantitative,CentralTendency,Mode,1 (freq=74954)
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Integrity,NullCount,0
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Integrity,NullPct,0
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Feasibility,DistinctCount,4
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Feasibility,Top1CategoryPct,33.9557
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Feasibility,Top1CategoryValue,Accessories
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Feasibility,Top2CategoryPct,32.997
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Feasibility,Top2CategoryValue,Bikes
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Feasibility,Top3CategoryPct,17.6348
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,Feasibility,Top3CategoryValue,Clothing
+SalesPerformanceFacts,ProductCategoryName,nvarchar,Qualitative,CentralTendency,Mode,Accessories (freq=41194)
+SalesPerformanceFacts,ProductID,int,Qualitative,Integrity,NullCount,0
+SalesPerformanceFacts,ProductID,int,Qualitative,Integrity,NullPct,0
+SalesPerformanceFacts,ProductID,int,Qualitative,Feasibility,DistinctCount,266
+SalesPerformanceFacts,ProductID,int,Qualitative,Feasibility,Top1CategoryPct,3.86426
+SalesPerformanceFacts,ProductID,int,Qualitative,Feasibility,Top1CategoryValue,870
+SalesPerformanceFacts,ProductID,int,Qualitative,Feasibility,Top2CategoryPct,2.78774
+SalesPerformanceFacts,ProductID,int,Qualitative,Feasibility,Top2CategoryValue,712
+SalesPerformanceFacts,ProductID,int,Qualitative,Feasibility,Top3CategoryPct,2.76466
+SalesPerformanceFacts,ProductID,int,Qualitative,Feasibility,Top3CategoryValue,873
+SalesPerformanceFacts,ProductID,int,Qualitative,CentralTendency,Mode,870 (freq=4688)
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Integrity,NullCount,0
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Integrity,NullPct,0
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Feasibility,DistinctCount,266
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Feasibility,Top1CategoryPct,3.86426
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Feasibility,Top1CategoryValue,Water Bottle - 30 oz.
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Feasibility,Top2CategoryPct,2.78774
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Feasibility,Top2CategoryValue,AWC Logo Cap
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Feasibility,Top3CategoryPct,2.76466
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,Feasibility,Top3CategoryValue,Patch Kit/8 Patches
+SalesPerformanceFacts,ProductName,nvarchar,Qualitative,CentralTendency,Mode,Water Bottle - 30 oz. (freq=4688)
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Integrity,NullCount,0
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Integrity,NullPct,0
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,DistinctCount,35
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top1CategoryPct,17.2639
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top1CategoryValue,Road Bikes
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top2CategoryPct,14.4209
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top2CategoryValue,Tires and Tubes
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top3CategoryPct,10.2681
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top3CategoryValue,Mountain Bikes
+SalesPerformanceFacts,ProductSubCategoryName,nvarchar,Qualitative,CentralTendency,Mode,Road Bikes (freq=20944)
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Integrity,NullCount,0
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Integrity,NullPct,0
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Feasibility,DistinctCount,31465
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Feasibility,Top1CategoryPct,0.0593486
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Feasibility,Top1CategoryValue,51739
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Feasibility,Top2CategoryPct,0.0593486
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Feasibility,Top2CategoryValue,51721
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Feasibility,Top3CategoryPct,0.0585244
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,Feasibility,Top3CategoryValue,51160
+SalesPerformanceFacts,SalesOrderID,int,Qualitative,CentralTendency,Mode,51739 (freq=72)
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Integrity,NegativeCount,0
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Integrity,NullCount,80
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Feasibility,MaxValue,2171.29
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Feasibility,Mean,362.513
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Feasibility,Median,38.4923
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Feasibility,MinValue,0.86
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Feasibility,OutlierCount,14945
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Feasibility,OutlierPct,12.3271
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,Feasibility,StdDev,541.569
+SalesPerformanceFacts,StandardCostAsOfOrderDate,money,Quantitative,CentralTendency,Mode,1.87 (freq=9271)
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Integrity,NullCount,0
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Integrity,NullPct,0
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Feasibility,DistinctCount,10
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Feasibility,Top1CategoryPct,21.138
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Feasibility,Top1CategoryValue,4
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Feasibility,Top2CategoryPct,15.7142
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Feasibility,Top2CategoryValue,6
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Feasibility,Top3CategoryPct,13.9016
+SalesPerformanceFacts,TerritoryID,int,Qualitative,Feasibility,Top3CategoryValue,1
+SalesPerformanceFacts,TerritoryID,int,Qualitative,CentralTendency,Mode,4 (freq=25644)
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Integrity,NullCount,0
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Integrity,NullPct,0
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Feasibility,DistinctCount,10
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Feasibility,Top1CategoryPct,21.138
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Feasibility,Top1CategoryValue,Southwest
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Feasibility,Top2CategoryPct,15.7142
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Feasibility,Top2CategoryValue,Canada
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Feasibility,Top3CategoryPct,13.9016
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,Feasibility,Top3CategoryValue,Northwest
+SalesPerformanceFacts,TerritoryName,nvarchar,Qualitative,CentralTendency,Mode,Southwest (freq=25644)
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Integrity,NegativeCount,0
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Integrity,NullCount,0
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Feasibility,MaxValue,0.40
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Feasibility,Mean,0.00282607
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Feasibility,Median,0
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Feasibility,MinValue,0.00
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Feasibility,OutlierCount,3282
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Feasibility,OutlierPct,2.70531
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,Feasibility,StdDev,0.0248105
+SalesPerformanceFacts,UnitPriceDiscount,money,Quantitative,CentralTendency,Mode,0.00 (freq=118035)

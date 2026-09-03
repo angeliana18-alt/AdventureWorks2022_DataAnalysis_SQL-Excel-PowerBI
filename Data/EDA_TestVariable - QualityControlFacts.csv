@@ -1,0 +1,169 @@
+﻿TableName,ColumnName,DataType,VariableType,CheckType,Metric,MetricValue
+QualityControlFacts,EndDate,datetime,Qualitative,Integrity,NullCount,0
+QualityControlFacts,EndDate,datetime,Qualitative,Integrity,NullPct,0
+QualityControlFacts,EndDate,datetime,Qualitative,Feasibility,MaxDate,Jun 17 2014 12:00AM
+QualityControlFacts,EndDate,datetime,Qualitative,Feasibility,MinDate,Jun 13 2011 12:00AM
+QualityControlFacts,EndDate,datetime,Qualitative,Feasibility,TimespanDays,1100
+QualityControlFacts,EndDate,datetime,Qualitative,Feasibility,TimespanMonths,36
+QualityControlFacts,EndDate,datetime,Qualitative,Feasibility,TimespanYears,3
+QualityControlFacts,EndDate,datetime,Qualitative,CentralTendency,Mode,Apr 13 2014 12:00AM (freq=288)
+QualityControlFacts,FiscalMonth,int,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,FiscalMonth,int,Quantitative,Integrity,NullCount,0
+QualityControlFacts,FiscalMonth,int,Quantitative,Feasibility,MaxValue,12
+QualityControlFacts,FiscalMonth,int,Quantitative,Feasibility,Mean,6.64414
+QualityControlFacts,FiscalMonth,int,Quantitative,Feasibility,Median,7
+QualityControlFacts,FiscalMonth,int,Quantitative,Feasibility,MinValue,1
+QualityControlFacts,FiscalMonth,int,Quantitative,Feasibility,OutlierCount,0
+QualityControlFacts,FiscalMonth,int,Quantitative,Feasibility,OutlierPct,0
+QualityControlFacts,FiscalMonth,int,Quantitative,Feasibility,StdDev,3.43408
+QualityControlFacts,FiscalMonth,int,Quantitative,CentralTendency,Mode,11 (freq=6869)
+QualityControlFacts,FiscalYear,int,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,FiscalYear,int,Quantitative,Integrity,NullCount,0
+QualityControlFacts,FiscalYear,int,Quantitative,Feasibility,MaxValue,2014
+QualityControlFacts,FiscalYear,int,Quantitative,Feasibility,Mean,2013.24
+QualityControlFacts,FiscalYear,int,Quantitative,Feasibility,Median,2013
+QualityControlFacts,FiscalYear,int,Quantitative,Feasibility,MinValue,2011
+QualityControlFacts,FiscalYear,int,Quantitative,Feasibility,OutlierCount,597
+QualityControlFacts,FiscalYear,int,Quantitative,Feasibility,OutlierPct,0.822416
+QualityControlFacts,FiscalYear,int,Quantitative,Feasibility,StdDev,0.823412
+QualityControlFacts,FiscalYear,int,Quantitative,CentralTendency,Mode,2014 (freq=34756)
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Integrity,NullCount,0
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Feasibility,MaxValue,39570
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Feasibility,Mean,62.0975
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Feasibility,Median,4
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Feasibility,MinValue,1
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Feasibility,OutlierCount,9077
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Feasibility,OutlierPct,12.5043
+QualityControlFacts,PlannedOrderQty,int,Quantitative,Feasibility,StdDev,684.482
+QualityControlFacts,PlannedOrderQty,int,Quantitative,CentralTendency,Mode,1 (freq=20830)
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Integrity,NullCount,23050
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Integrity,NullPct,31.7532
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Feasibility,DistinctCount,2
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Feasibility,Top1CategoryPct,51.0022
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Feasibility,Top1CategoryValue,Components
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Feasibility,Top2CategoryPct,31.7532
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Feasibility,Top2CategoryValue,NULL
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Feasibility,Top3CategoryPct,17.2446
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,Feasibility,Top3CategoryValue,Bikes
+QualityControlFacts,ProdcutCategoryName,nvarchar,Qualitative,CentralTendency,Mode,Components (freq=37023)
+QualityControlFacts,ProductID,int,Qualitative,Integrity,NullCount,0
+QualityControlFacts,ProductID,int,Qualitative,Integrity,NullPct,0
+QualityControlFacts,ProductID,int,Qualitative,Feasibility,DistinctCount,238
+QualityControlFacts,ProductID,int,Qualitative,Feasibility,Top1CategoryPct,1.52223
+QualityControlFacts,ProductID,int,Qualitative,Feasibility,Top1CategoryValue,945
+QualityControlFacts,ProductID,int,Qualitative,Feasibility,Top2CategoryPct,1.52085
+QualityControlFacts,ProductID,int,Qualitative,Feasibility,Top2CategoryValue,804
+QualityControlFacts,ProductID,int,Qualitative,Feasibility,Top3CategoryPct,1.51809
+QualityControlFacts,ProductID,int,Qualitative,Feasibility,Top3CategoryValue,894
+QualityControlFacts,ProductID,int,Qualitative,CentralTendency,Mode,945 (freq=1105)
+QualityControlFacts,ProductionCost,money,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,ProductionCost,money,Quantitative,Integrity,NullCount,0
+QualityControlFacts,ProductionCost,money,Quantitative,Feasibility,MaxValue,380592.31
+QualityControlFacts,ProductionCost,money,Quantitative,Feasibility,Mean,2849.54
+QualityControlFacts,ProductionCost,money,Quantitative,Feasibility,Median,314.654
+QualityControlFacts,ProductionCost,money,Quantitative,Feasibility,MinValue,0.00
+QualityControlFacts,ProductionCost,money,Quantitative,Feasibility,OutlierCount,7361
+QualityControlFacts,ProductionCost,money,Quantitative,Feasibility,OutlierPct,10.1404
+QualityControlFacts,ProductionCost,money,Quantitative,Feasibility,StdDev,12759.3
+QualityControlFacts,ProductionCost,money,Quantitative,CentralTendency,Mode,0.00 (freq=18504)
+QualityControlFacts,ProductName,nvarchar,Qualitative,Integrity,NullCount,0
+QualityControlFacts,ProductName,nvarchar,Qualitative,Integrity,NullPct,0
+QualityControlFacts,ProductName,nvarchar,Qualitative,Feasibility,DistinctCount,238
+QualityControlFacts,ProductName,nvarchar,Qualitative,Feasibility,Top1CategoryPct,1.52223
+QualityControlFacts,ProductName,nvarchar,Qualitative,Feasibility,Top1CategoryValue,Front Derailleur
+QualityControlFacts,ProductName,nvarchar,Qualitative,Feasibility,Top2CategoryPct,1.52085
+QualityControlFacts,ProductName,nvarchar,Qualitative,Feasibility,Top2CategoryValue,HL Fork
+QualityControlFacts,ProductName,nvarchar,Qualitative,Feasibility,Top3CategoryPct,1.51809
+QualityControlFacts,ProductName,nvarchar,Qualitative,Feasibility,Top3CategoryValue,Rear Derailleur
+QualityControlFacts,ProductName,nvarchar,Qualitative,CentralTendency,Mode,Front Derailleur (freq=1105)
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Integrity,NullCount,23050
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Integrity,NullPct,31.7532
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,DistinctCount,13
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top1CategoryPct,31.7532
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top1CategoryValue,NULL
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top2CategoryPct,11.2975
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top2CategoryValue,Wheels
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top3CategoryPct,9.24219
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,Feasibility,Top3CategoryValue,Road Frames
+QualityControlFacts,ProductSubCategoryName,nvarchar,Qualitative,CentralTendency,Mode,Wheels (freq=8201)
+QualityControlFacts,ScrapCost,money,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,ScrapCost,money,Quantitative,Integrity,NullCount,0
+QualityControlFacts,ScrapCost,money,Quantitative,Feasibility,MaxValue,8313.36
+QualityControlFacts,ScrapCost,money,Quantitative,Feasibility,Mean,4.95856
+QualityControlFacts,ScrapCost,money,Quantitative,Feasibility,Median,0
+QualityControlFacts,ScrapCost,money,Quantitative,Feasibility,MinValue,0.00
+QualityControlFacts,ScrapCost,money,Quantitative,Feasibility,OutlierCount,348
+QualityControlFacts,ScrapCost,money,Quantitative,Feasibility,OutlierPct,0.479398
+QualityControlFacts,ScrapCost,money,Quantitative,Feasibility,StdDev,102.33
+QualityControlFacts,ScrapCost,money,Quantitative,CentralTendency,Mode,0.00 (freq=72243)
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Integrity,NullCount,0
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Feasibility,MaxValue,673
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Feasibility,Mean,0.146726
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Feasibility,Median,0
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Feasibility,MinValue,0
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Feasibility,OutlierCount,729
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Feasibility,OutlierPct,1.00426
+QualityControlFacts,ScrappedQty,smallint,Quantitative,Feasibility,StdDev,4.80674
+QualityControlFacts,ScrappedQty,smallint,Quantitative,CentralTendency,Mode,0 (freq=71862)
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Integrity,NullCount,71862
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Integrity,NullPct,98.9957
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Feasibility,DistinctCount,16
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Feasibility,Top1CategoryPct,98.9957
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Feasibility,Top1CategoryValue,NULL
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Feasibility,Top2CategoryPct,0.0867876
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Feasibility,Top2CategoryValue,13
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Feasibility,Top3CategoryPct,0.0743894
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,Feasibility,Top3CategoryValue,3
+QualityControlFacts,ScrapReasonID,smallint,Qualitative,CentralTendency,Mode,13 (freq=63)
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Integrity,NullCount,71862
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Integrity,NullPct,98.9957
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Feasibility,DistinctCount,16
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Feasibility,Top1CategoryPct,98.9957
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Feasibility,Top1CategoryValue,NULL
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Feasibility,Top2CategoryPct,0.0867876
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Feasibility,Top2CategoryValue,Thermoform temperature too low
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Feasibility,Top3CategoryPct,0.0743894
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,Feasibility,Top3CategoryValue,Gouge in metal
+QualityControlFacts,ScrapReasonName,nvarchar,Qualitative,CentralTendency,Mode,Thermoform temperature too low (freq=63)
+QualityControlFacts,StandardCost,money,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,StandardCost,money,Quantitative,Integrity,NullCount,0
+QualityControlFacts,StandardCost,money,Quantitative,Feasibility,MaxValue,2171.29
+QualityControlFacts,StandardCost,money,Quantitative,Feasibility,Mean,315.321
+QualityControlFacts,StandardCost,money,Quantitative,Feasibility,Median,98.77
+QualityControlFacts,StandardCost,money,Quantitative,Feasibility,MinValue,0.00
+QualityControlFacts,StandardCost,money,Quantitative,Feasibility,OutlierCount,7729
+QualityControlFacts,StandardCost,money,Quantitative,Feasibility,OutlierPct,10.6473
+QualityControlFacts,StandardCost,money,Quantitative,Feasibility,StdDev,479.18
+QualityControlFacts,StandardCost,money,Quantitative,CentralTendency,Mode,0.00 (freq=18504)
+QualityControlFacts,StockedQty,int,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,StockedQty,int,Quantitative,Integrity,NullCount,0
+QualityControlFacts,StockedQty,int,Quantitative,Feasibility,MaxValue,39570
+QualityControlFacts,StockedQty,int,Quantitative,Feasibility,Mean,61.9508
+QualityControlFacts,StockedQty,int,Quantitative,Feasibility,Median,4
+QualityControlFacts,StockedQty,int,Quantitative,Feasibility,MinValue,1
+QualityControlFacts,StockedQty,int,Quantitative,Feasibility,OutlierCount,9075
+QualityControlFacts,StockedQty,int,Quantitative,Feasibility,OutlierPct,12.5015
+QualityControlFacts,StockedQty,int,Quantitative,Feasibility,StdDev,683.313
+QualityControlFacts,StockedQty,int,Quantitative,CentralTendency,Mode,1 (freq=20830)
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Integrity,NegativeCount,0
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Integrity,NullCount,0
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Feasibility,MaxValue,39570
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Feasibility,Mean,62.0975
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Feasibility,Median,4
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Feasibility,MinValue,1
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Feasibility,OutlierCount,9077
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Feasibility,OutlierPct,12.5043
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,Feasibility,StdDev,684.482
+QualityControlFacts,TotalUnitsProduced,int,Quantitative,CentralTendency,Mode,1 (freq=20830)
+QualityControlFacts,WorkOrderID,int,Qualitative,Integrity,NullCount,0
+QualityControlFacts,WorkOrderID,int,Qualitative,Integrity,NullPct,0
+QualityControlFacts,WorkOrderID,int,Qualitative,Feasibility,DistinctCount,72591
+QualityControlFacts,WorkOrderID,int,Qualitative,Feasibility,Top1CategoryPct,0.00137758
+QualityControlFacts,WorkOrderID,int,Qualitative,Feasibility,Top1CategoryValue,51201
+QualityControlFacts,WorkOrderID,int,Qualitative,Feasibility,Top2CategoryPct,0.00137758
+QualityControlFacts,WorkOrderID,int,Qualitative,Feasibility,Top2CategoryValue,56774
+QualityControlFacts,WorkOrderID,int,Qualitative,Feasibility,Top3CategoryPct,0.00137758
+QualityControlFacts,WorkOrderID,int,Qualitative,Feasibility,Top3CategoryValue,68181
+QualityControlFacts,WorkOrderID,int,Qualitative,CentralTendency,Mode,56774 (freq=1)
